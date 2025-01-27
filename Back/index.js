@@ -7,7 +7,6 @@ const fs = require('fs');
 const app = express();
 
 // // MongoDB connection
-// mongoose.connect('mongodb+srv://ocean:9755@nodetest.ogamw.mongodb.net/lenslight_tr');
 require('dotenv').config();
 
 const mongoURI = process.env.MONGO_URI;
