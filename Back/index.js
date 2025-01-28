@@ -19,7 +19,7 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
 // CORS configuration
 const corsOptions = {
   origin: [
-    "https://test-gtvv.vercel.app/", // Vercel frontend URL
+    "https://test-gtvv.vercel.app", // Vercel frontend URL
   ],
 };
 app.use(cors(corsOptions));
